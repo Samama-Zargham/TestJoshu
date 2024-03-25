@@ -36,7 +36,7 @@ const TestScreen = () => {
         <AppText children={'What type of content are you creating?'} Medium />
         <ContentTypeBtns value={selectedType} setValue={handleSetType} />
         <AppText
-          children={`Which type of "${selectedType}" content are you creating?`}
+          children={`Which type of '${selectedType}' content are you creating?`}
           Medium
         />
         <View style={{zIndex: 30000}}>
